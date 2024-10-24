@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body {
-    font-family: 'Rubik', sans-serif;
+    font-family: sans-serif;
     position: relative;
 }
 
@@ -74,15 +74,15 @@ p.lead {
 }
 
 .btn-outline-light:hover {
-    color: #7B51CD;
+    color: #008080;
 }
 
 .btn-primary {
     border-radius: 3px;
-    background-image: -moz-linear-gradient( 122deg, #3E1E8E 0%, #3E1E8E 100%);
-    background-image: -webkit-linear-gradient( 122deg, #3E1E8E 0%, #3E1E8E 100%);
-    background-image: -ms-linear-gradient( 122deg, #3E1E8E 0%, #3E1E8E 100%);
-    background-image: linear-gradient( 122deg, #3E1E8E 0%, #3E1E8E 100%);
+    background-image: -moz-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
+    background-image: -webkit-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
+    background-image: -ms-linear-gradient( 122deg, #002B36 0%, #002B36 100%);
+    background-image: linear-gradient( 122deg, #002B36 0%, #002B36 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.2);
     font-weight: 500;
     padding: 0.6rem 2rem;
@@ -95,7 +95,7 @@ p.lead {
 .btn-primary:not([disabled]):not(.disabled).active,
 .btn-primary:not([disabled]):not(.disabled):active,
 .show>.btn-primary.dropdown-toggle {
-    background-image: linear-gradient( 122deg, #7B51CD 0%, #7B51CD 100%);
+    background-image: linear-gradient( 122deg, #008080 0%, #008080 100%);
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.3);
     color: #FFF;
 }
@@ -106,7 +106,7 @@ p.lead {
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.26);
     font-size: 14px;
     font-weight: 500;
-    color: #7B51CD;
+    color: #008080;
     margin: 0.5rem;
     padding: 0.7rem 1.6rem;
     line-height: 1.8;
@@ -146,4 +146,8 @@ p.lead {
     h2 {
         font-size: 30px;
     }
+}
+
+.theme-background {
+    background-color: #002B36;
 }
