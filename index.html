@@ -17,25 +17,39 @@
     <!-- Main css -->
     <link href="css/style.css" rel="stylesheet">
 
-    <link rel="icon" type="image/x-icon" href="">
+    <link rel="icon" type="image/x-icon" href="images/xr-careerassist-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/5.0.375/pdf_viewer.min.css" integrity="sha512-bt54/qzXTxutlNalAuK/V3dxe1T7ZDqeEYbZPle3G1kOH+K1zKlQE0ZOkdYVwPDxdCFrdLHwneslj7sA5APizQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <!-- Hero -->
     <section style="background-image: linear-gradient(90deg, #002B36 39%, #008080 100%);">
-        <div class="container-fluid bsb-hero-6 bsb-overlay border border-dark pt-3 pb-4 pb-md-5" style="--bsb-overlay-opacity: 0.5; --bsb-overlay-bg-color: var(--bs-light-rgb); background-image: url('./assets/img/hero-img-1.webp');">
+        <div class="container-fluid bsb-hero-6 bsb-overlay border border-dark pt-3 pb-4 pb-md-5" style="--bsb-overlay-opacity: 0.5; --bsb-overlay-bg-color: var(--bs-light-rgb);">
             <div class="row justify-content-md-center align-items-center">
                 <div class="col-12 col-md-11 col-xl-10 p-0 text-white">
                     <div class="text-end">
-                        <img src="https://voxreality.eu/wp-content/uploads/2023/01/VOXReality-logo.png">
+                        <img style="max-height: 100px;" src="images/xr-careerassist-logo.png" alt="XR CareerAssist Logo" class="img-fluid">
                     </div>
                     <h2 class="display-1 text-white text-center text-md-start text-shadow-head fw-bold mb-4">Welcome to XR CareerAssist</h2>
                     <p class="lead text-center text-md-start text-shadow-body mb-5 d-flex justify-content-sm-center justify-content-md-start">
                         <span class="col-12">Your virtual career coach, powered by the latest AI models, to guide you through your next steps.</span>
                     </p>
                     <p class="lead text-center text-md-start text-shadow-body mb-5 d-flex justify-content-sm-center justify-content-md-start">
-                        <span class="col-12">Part of the EU funded VOXReality project.</span>
+                        <span class="col-12">Part of the EU funded <a class="text-white" href="https://voxreality.eu/" target="_blank">VOXReality</a> project.</span>
                     </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro Video -->
+    <section class="py-3 py-md-5 py-xl-8">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="embed-responsive">
+                        <iframe class="embed-responsive-item" style="max-width:560px;width:100%;margin:0 auto;display: block;" height="315" src="https://www.youtube.com/embed/L6fMOe4vYLE" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -103,6 +117,88 @@
 
         <div class="container overflow-hidden">
             <div class="row gy-4 gy-xxl-5">
+                <div class="col-12 col-md-4 col-lg-4 d-flex">
+                    <article class="d-flex">
+                        <div class="card border border-dark" style="--bs-card-border-radius: 0; --bs-card-inner-border-radius: 0;">
+                            <figure class="card-img-top m-0 overflow-hidden bsb-overlay-hover border-bottom">
+                                <a href="#!">
+                                    <img class="img-fluid bsb-scale bsb-hover-scale-up" loading="lazy" src="./images/pexels-fauxels-3184428.jpg" alt="Sprint finish">
+                                </a>
+                            </figure>
+                            <div class="card-body border-0 bg-white p-4">
+                                <div class="entry-header mb-3">
+                                    <ul class="entry-meta list-unstyled d-flex mb-2">
+                                        <li>
+                                            <a class="link-dark link-opacity-75 link-opacity-100-hover text-decoration-none" href="#!">
+                                                <span class="fs-7">03 June 2025</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="card-title entry-title h4 mb-0">
+                                        <a class="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="#!">Sprint 2 is Done!</a>
+                                    </h2>
+                                </div>
+                                <p class="card-text entry-summary text-secondary m-0 p-0">
+                                    Sprint 2 is at an end and the team has overcome some big challenges. We have completed the development of the XR-CareerAssist platform, and we are excited to get the pilot testing started. Stay tuned for more updates as we take the platform out into the real world and drive forward innovation in career guidance.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 d-flex">
+                    <article class="d-flex">
+                        <div class="card border border-dark" style="--bs-card-border-radius: 0; --bs-card-inner-border-radius: 0;">
+                            <figure class="card-img-top m-0 overflow-hidden bsb-overlay-hover border-bottom">
+                                <a href="#!">
+                                    <img class="img-fluid bsb-scale bsb-hover-scale-up w-100" loading="lazy" src="./images/TEDx.jpg" alt="TEDx Patras">
+                                </a>
+                            </figure>
+                            <div class="card-body border-0 bg-white p-4">
+                                <div class="entry-header mb-3">
+                                    <ul class="entry-meta list-unstyled d-flex mb-2">
+                                        <li>
+                                            <a class="link-dark link-opacity-75 link-opacity-100-hover text-decoration-none" href="#!">
+                                                <span class="fs-7">17 May 2025</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="card-title entry-title h4 mb-0">
+                                        <a class="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="#!">XR-CareerAssist at TEDx!</a>
+                                    </h2>
+                                </div>
+                                <p class="card-text entry-summary text-secondary m-0 p-0">
+                                    The XR-CareerAssist team has been busy spreading the word about our project at TEDx Patras. Thank you to everybody who stopped by our booth and shared their thoughts and ideas. We are always looking to understand how we can better serve our users and improve the experience of using our platform.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-4 col-lg-4 d-flex">
+                    <article class="d-flex">
+                        <div class="card border border-dark" style="--bs-card-border-radius: 0; --bs-card-inner-border-radius: 0;">
+                            <figure class="card-img-top m-0 overflow-hidden bsb-overlay-hover border-bottom" style="max-height: 275px;">
+                                <img id="pdf-thumbnail" class="pdf-thumbnail" src="./images/pdf-thumbnail.png" alt="XR Salento 2025 Paper" data-bs-toggle="modal" data-bs-target="#pdfModal">
+                            </figure>
+                            <div class="card-body border-0 bg-white p-4">
+                                <div class="entry-header mb-3">
+                                    <ul class="entry-meta list-unstyled d-flex mb-2">
+                                        <li>
+                                            <a class="link-dark link-opacity-75 link-opacity-100-hover text-decoration-none" href="#!">
+                                                <span class="fs-7">01 May 2025</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <h2 class="card-title entry-title h4 mb-0">
+                                        <a class="link-dark link-opacity-100 link-opacity-75-hover text-decoration-none" href="#!">Paper accepted at XR Salento 2025</a>
+                                    </h2>
+                                </div>
+                                <p class="card-text entry-summary text-secondary m-0 p-0">
+                                    The XR-CareerAssist team will be at XR Salento 2025 to present the technology behind our platform. Come and visit to find out more in person!
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
                 <div class="col-12 col-md-4 col-lg-4 d-flex">
                     <article class="d-flex">
                         <div class="card border border-dark" style="--bs-card-border-radius: 0; --bs-card-inner-border-radius: 0;">
@@ -243,6 +339,21 @@
             </div>
         </div>
     </section>
+
+    <!-- Bootstrap Modal -->
+    <div class="modal fade" id="pdfModal" tabindex="-1" aria-labelledby="pdfModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="pdfModalLabel">XR Salento 2025 Paper</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe id="pdf-viewer-iframe" class="pdf-viewer-iframe" src="https://mozilla.github.io/pdf.js/web/viewer.html?file=https://xr-careerassist.netlify.app/images/XRCareerAssist_SalentoXR.pdf"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer">
